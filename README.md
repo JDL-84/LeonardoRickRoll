@@ -38,11 +38,19 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
   
 3. Enters a DO WHILE for ~2mins, tubmbling the keyboard locks
    ```c
-   Press("CAPSLOCK");delay(_delay); Keyboard.releaseAll();   Press("NUMLOCK"); delay(_delay);Keyboard.releaseAll();   Press("SCROLLLOCK"); delay(_delay); Keyboard.releaseAll();   
+		Press("CAPSLOCK");
+		delay(_delay); 
+		Keyboard.releaseAll();   
+		Press("NUMLOCK"); 
+		delay(_delay);
+		Keyboard.releaseAll();   
+		Press("SCROLLLOCK"); 
+		delay(_delay); 
+		Keyboard.releaseAll();   
    ```
 4. Jumps the cursor position
    ```c
-   Mouse.move(random(5, 5000), random(5, 5000), 0); 
+		Mouse.move(random(5, 5000), random(5, 5000), 0); 
    ```
 
 
