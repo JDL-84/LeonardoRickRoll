@@ -42,7 +42,6 @@ void BaDuSb()
   //HAVOC
     int x = 0;   //COUNTER 
     int d = 250; //(d)elay; 
-    int t = 2;   //MINUTES TO RUN  
     
     do 
     { 
