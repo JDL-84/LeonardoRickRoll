@@ -12,6 +12,8 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
 ## Leonardo
 <img src="docs/Data/Assets/Leonardo.png" alt="Leonardo BadUsb">
 
+Cheap BadUSB (£3>£10) sold on eBay/Amaxon etc. 
+
 ## Arduino
 <img src="docs/Data/Assets/Arduino.png" alt="Leonardo BadUsb">
 
