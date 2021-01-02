@@ -24,7 +24,7 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
    
    Moved here to prevent executing a scrpit externally from this repo. 
    
-  _In case it gets changed to do something more nefarious._
+    _In case it gets changed to do something more nefarious._
   
 3. Enters a DO WHILE for ~2mins, tubmbling the keyboard locks
    ```c
