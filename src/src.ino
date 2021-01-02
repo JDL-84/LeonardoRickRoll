@@ -45,7 +45,7 @@ void BaDuSb()
     
     do 
     { 
-      //HOLD SHIFT+ESC
+      //TUMBLE KEY LOCKS
         Press("CAPSLOCK");delay(_delay); Keyboard.releaseAll();   Press("NUMLOCK"); delay(_delay);Keyboard.releaseAll();   Press("SCROLLLOCK"); delay(_delay); Keyboard.releaseAll();   
       //Increment X by (d)elay;
       x = x+d;
