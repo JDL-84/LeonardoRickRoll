@@ -8,7 +8,7 @@
 #include <Keyboard.h>
 #include <Mouse.h>
 #include "FingerprintUSBHost.h"
-
+//https://github.com/keyboardio/FingerprintUSBHost
 
 const int _delay = 45; 
 const int _initialdelay = 10000;
