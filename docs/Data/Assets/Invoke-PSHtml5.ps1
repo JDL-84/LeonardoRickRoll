@@ -1,10 +1,13 @@
 ## From http://www.leeholmes.com/
 ## For this script, ensure we control the files we're pulling from the intnernet. 
+#ORIG: http://bit.ly/e0Mw9w
+#NEW: https://jdl-84.github.io/LeonardoRickRoll/Data/Assets/Invoke-PSHtml5.ps1
+#BITLY:https://bit.ly/3n8DTGj
 ##
 ## PowerShell + HTML5 prototype. Needs audio. Run: iex (New-Object Net.WebClient).DownloadString("http://bit.ly/e0Mw9w")
 if($host.Name -ne "ConsoleHost")
 {
-    Start-Process powershell -ArgumentList '-noprofile -noexit -command iex (New-Object Net.WebClient).DownloadString(''http://bit.ly/e0Mw9w'')'
+    Start-Process powershell -ArgumentList '-noprofile -noexit -command iex (New-Object Net.WebClient).DownloadString(''https://bit.ly/3n8DTGj'')'
     return
 }
 
@@ -56,10 +59,17 @@ try
     $host.UI.RawUI.BufferSize = New-Object System.Management.Automation.Host.Size 83,45
 } catch {}
 
+##Compressed and shorterned version of LeeHolmes' MP3. 
+##Also moved to match this repo. 
+
+#ORIG:http://www.leeholmes.com/projects/ps_html5/background.mp3
+#NEW: https://jdl-84.github.io/LeonardoRickRoll/Data/Assets/background_short_compressed.mp3
+#BITLY:https://bit.ly/34ZkfWL
+
 ## Open the background song
 $script = @'
    $player = New-Object -ComObject 'MediaPlayer.MediaPlayer'
-   $player.Open("http://www.leeholmes.com/projects/ps_html5/background.mp3")
+   $player.Open("https://bit.ly/34ZkfWL")
    $player
 '@
 
@@ -87,7 +97,6 @@ try
     
     $host.UI.RawUI.CursorPosition = New-Object System.Management.Automation.Host.Coordinates `
         0,([Console]::WindowHeight - 1)
-    Write-Host -NoNewLine 'Q or ESC to Quit'
     
     ## Loop through the frames and display them
     [Console]::TreatControlCAsInput = $true
@@ -96,9 +105,7 @@ try
         if([Console]::KeyAvailable)
         {
             $key = [Console]::ReadKey()
-            if(($key.Key -eq 'Escape') -or
-                ($key.Key -eq 'Q') -or
-                ($key.Key -eq 'C'))
+            if($key.Key -eq 'R')
             {
                 break
             }
@@ -118,8 +125,6 @@ finally
     Clear-Host
     $frames[-1] -split "`t"
     "`n"
-    "                        Happy Scripting from PowerShell..."
-    "                                 and Rick ASCII!"
     "`n`n`n"
     $player.Stop()
     $bgPowerShell.Dispose()
