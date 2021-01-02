@@ -4,7 +4,9 @@ BadUsb - Leonardo - Arduino - Rick Roll
 
 Simple Arduino script for testing the Leonardo USB (badUsb Beetle). 
 
-If connected to a Windows PC, it will attempt to run the Powershell Rick Roll from http://www.leeholmes.com/.
+If connected to a Windows PC, it will attempt to run the Powershell Rick Roll.
+
+![LeeHolmes.com Rick Roll](docs/Data/Assets/leeholmes_com_Rick_Roll.gif)
 
 It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor position. 
 
@@ -13,7 +15,13 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
 1. Inserted BadUSB waits for **_initialdelay** of 10 seconds. 
 2. Script calls **RUNCOMMAND()** (Windows Key + 'R') for opening the run command window. 
    ```c
-   void RUNCOMMAND() { Press("GUI");  Press("r");   delay(1000);   Keyboard.releaseAll(); }
+   void RUNCOMMAND() 
+		{ 
+			Press("GUI");  
+			Press("r");   
+			delay(1000);   
+			Keyboard.releaseAll(); 
+		}
    ```
 2. Script then attempts to call the [Invoke-PSHtml5.ps1](https://bit.ly/3n8DTGj) script. 
    ```powershell
@@ -25,6 +33,8 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
    Moved here to prevent executing a scrpit externally from this repo. 
    
     _In case it gets changed to do something more nefarious._
+	
+	The script has been also be changed to call the [MP3](https://bit.ly/34ZkfWL) from this repo.
   
 3. Enters a DO WHILE for ~2mins, tubmbling the keyboard locks
    ```c
