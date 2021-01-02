@@ -1,0 +1,10 @@
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\bin\Debug\KeyboardLightCheck.exe.config
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\bin\Debug\KeyboardLightCheck.exe
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\bin\Debug\KeyboardLightCheck.pdb
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\obj\Debug\KeyboardLightCheck.csprojAssemblyReference.cache
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\obj\Debug\KeyboardLightCheck.Properties.Resources.resources
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\obj\Debug\KeyboardLightCheck.csproj.GenerateResource.cache
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\obj\Debug\KeyboardLightCheck.csproj.CoreCompileInputs.cache
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\obj\Debug\KeyboardLightCheck.exe
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\obj\Debug\KeyboardLightCheck.pdb
+C:\Users\jim.lynes\source\repos\KeyboardLightCheck\KeyboardLightCheck\obj\Debug\KeyboardLightCheck.frm_Main.resources
