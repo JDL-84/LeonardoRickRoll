@@ -22,7 +22,9 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
    You can just run this manually from run/cmd prompt for testing. 
    Original script is from [leeholmes.com](http://www.leeholmes.com/projects/ps_html5/Invoke-PSHtml5.ps1)
    
-   Moved here to prevent executing a scrpit externally from this repo. In case it gets changed to do something more nefarious. 
+   Moved here to prevent executing a scrpit externally from this repo. 
+   
+  * In case it gets changed to do something more nefarious. *
 3. Enters a DO WHILE for ~2mins, tubmbling the keyboard locks
    ```c
    Press("CAPSLOCK");delay(_delay); Keyboard.releaseAll();   Press("NUMLOCK"); delay(_delay);Keyboard.releaseAll();   Press("SCROLLLOCK"); delay(_delay); Keyboard.releaseAll();   
