@@ -10,9 +10,8 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
 
 
 # Leonardo
-<img src="Data/Assets/Leonardo.png" alt="Leonardo BadUsb">
+<img src="docs/Data/Assets/Leonardo.png" alt="Leonardo BadUsb">
 
-Data\Assets\Leonardo.png
 
 ## Demo
 ![DemoGIF](https://jdl-84.github.io/LeonardoRickRoll/Data/Assets/bAduSb.gif)
