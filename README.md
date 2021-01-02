@@ -1,4 +1,4 @@
-# Leonardo BadUSB - RickRoll
+# BadUSB - RickRoll
 BadUsb - Leonardo - Arduino - Rick Roll
 
 Simple Arduino script for testing the Leonardo USB (badUsb Beetle). 
@@ -9,7 +9,7 @@ URLs have been changed to point to this repo.
 It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor position. 
 
 
-## Leonardo
+## BadUsb Beetle Bad USB Microcontroller ATMEGA32U4
 <img src="docs/Data/Assets/Leonardo.png" alt="Leonardo BadUsb">
 
 Cheap BadUSB (£3>£10) sold on eBay/Amazon etc. 
