@@ -1,7 +1,7 @@
 # LeonardoRickRoll
 BadUsb - Leonardo - Arduino - Rick Roll
 
-Sinmple Arduino script for testing the Leonardo USB (badUsb Beetle). 
+Simple Arduino script for testing the Leonardo USB (badUsb Beetle). 
 
 If connected to a Windows PC, it will attempt to run the Powershell Rick Roll from http://www.leeholmes.com/.
 URLs have been changed to point to this repo. 
