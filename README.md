@@ -1,4 +1,4 @@
-# LeonardoRickRoll
+# Leonardo BadUSB - RickRoll
 BadUsb - Leonardo - Arduino - Rick Roll
 
 Simple Arduino script for testing the Leonardo USB (badUsb Beetle). 
