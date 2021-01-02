@@ -9,8 +9,11 @@ URLs have been changed to point to this repo.
 It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor position. 
 
 
-# Leonardo
+## Leonardo
 <img src="docs/Data/Assets/Leonardo.png" alt="Leonardo BadUsb">
+
+## Arduino
+<img src="docs/Data/Assets/Arduino.png" alt="Leonardo BadUsb">
 
 
 ## Demo
