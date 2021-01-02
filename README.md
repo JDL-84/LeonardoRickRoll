@@ -10,8 +10,8 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
 
 ### Overview
 
-1. Inserted BadUSB waits for _initialdelay of 10 seconds. 
-2. Script calls RUNCOMMAND() (Windows Key + 'R') for opening the run command window. 
+1. Inserted BadUSB waits for **_initialdelay** of 10 seconds. 
+2. Script calls **RUNCOMMAND()** (Windows Key + 'R') for opening the run command window. 
    ```c
    void RUNCOMMAND() { Press("GUI");  Press("r");   delay(1000);   Keyboard.releaseAll(); }
    ```
@@ -24,7 +24,8 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
    
    Moved here to prevent executing a scrpit externally from this repo. 
    
-  *In case it gets changed to do something more nefarious.*
+  _In case it gets changed to do something more nefarious._
+  
 3. Enters a DO WHILE for ~2mins, tubmbling the keyboard locks
    ```c
    Press("CAPSLOCK");delay(_delay); Keyboard.releaseAll();   Press("NUMLOCK"); delay(_delay);Keyboard.releaseAll();   Press("SCROLLLOCK"); delay(_delay); Keyboard.releaseAll();   
