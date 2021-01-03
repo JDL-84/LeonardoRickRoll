@@ -13,7 +13,7 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
 ![LeeHolmes.com Rick Roll](docs/Data/Assets/leeholmes_com_Rick_Roll.gif)
 
 ### Bash Rick Roll
-![LeeHolmes.com Rick Roll](docs/Data/Assets/leeholmes_com_Rick_Roll.gif)
+![LeeHolmes.com Rick Roll](docs/Data/Assets/keroserene_Rick_Roll.gif)
 
 ### Overview
 
