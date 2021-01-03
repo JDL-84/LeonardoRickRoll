@@ -9,6 +9,11 @@ If connected to a Linux PC, it will attempt to run the Bash Rick Roll.
 
 It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor position. 
 
+External files moved here to prevent executing a scrpit externally from this repo. 
+   
+ _In case it gets changed to do something more nefarious._
+	
+
 ### PowerShell Rick Roll 
 ![LeeHolmes.com Rick Roll](docs/Data/Assets/leeholmes_com_Rick_Roll.gif)
 
@@ -39,10 +44,7 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
    
    Original script is from [leeholmes.com](http://www.leeholmes.com/projects/ps_html5/Invoke-PSHtml5.ps1)
    
-   Moved here to prevent executing a scrpit externally from this repo. 
-   
-    _In case it gets changed to do something more nefarious._
-	
+
 	The script has been also be changed to call the [MP3](https://bit.ly/34ZkfWL) from this repo.
    
 4. If **Linux** is detected, the script calls **LINUXTERMINAL()** (CRTL + ALT + 'T') for opening a new terminal windows. 
@@ -69,10 +71,7 @@ It will also tumble the keyboard NUM/CAP/SCROLL locks and jump the cursor positi
    You can run this manually from terminal prompt for testing.
 	
    Original script is from [keroserene](https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh)
-   
-   Moved here to prevent executing a scrpit externally from this repo. 
-   
-   _In case it gets changed to do something more nefarious._
+
    
 5. Srcipt then enters a DO WHILE for ~2mins, tubmbling the keyboard locks
    ```c
