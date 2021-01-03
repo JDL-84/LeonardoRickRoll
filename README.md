@@ -76,13 +76,10 @@ External files moved here to prevent executing a scrpit externally from this rep
 5. Srcipt then enters a DO WHILE for ~2mins, tubmbling the keyboard locks
    ```c
 		Press("CAPSLOCK");
-		delay(_delay); 
 		Keyboard.releaseAll();   
 		Press("NUMLOCK"); 
-		delay(_delay);
 		Keyboard.releaseAll();   
 		Press("SCROLLLOCK"); 
-		delay(_delay); 
 		Keyboard.releaseAll();   
    ```
 6. Jumps the cursor position
