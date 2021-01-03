@@ -58,7 +58,7 @@ External files moved here to prevent executing a scrpit externally from this rep
 		}
    ```
    
-   *Used on Ubuntu server, the new terminal request does not affect running of the script. *
+   _Used on Ubuntu server, the new terminal request does not affect running of the script._
    
    Script then attempts to call the [roll.sh](https://bit.ly/3rPd3Gv) script.   
 
